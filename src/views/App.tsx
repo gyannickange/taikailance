@@ -4,13 +4,13 @@ import {
   JobCard,
   Footer,
   Search
-} from './components';
+} from '../components';
 import {
   Layout,
   Helpers
-} from './styles';
-import CurvreBG from './components/header/curve';
-import Jobs from './data/job-list.json';
+} from '../styles';
+import CurvreBG from '../components/header/curve';
+import Jobs from '../data/job-list.json';
 
 function App() {
   return (

@@ -5,8 +5,6 @@ const { regular } = fontWeigth;
 const { normal } = colors;
 
 const GlobalStyle= createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
-
 * {
   box-sizing: border-box;
 }

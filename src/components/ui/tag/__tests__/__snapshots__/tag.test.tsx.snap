@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag renders 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: inline-block;
+  border: 2px solid hsl(0,0%,48%);
+  border-radius: 999px;
+  background-color: hsl(0,0%,48%);
+  max-width: 9.375rem;
+  padding: 0.125rem 0.625rem;
+  font-size: 0.85rem;
+  color: hsl(0,0%,100%);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-color: hsl(354,83%,64%);
+  background-color: hsl(354,83%,64%);
+  color: hsl(0,0%,100%);
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
+}
+
+<span
+    class="c0 tag"
+    color="danger"
+    title="hello"
+  >
+    hello
+  </span>
+</DocumentFragment>
+`;

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Navigation, Button } from '../';
-import work_at_home from '../../assets/images/work_at_home.svg';
 import { Layout } from '../../styles';
 import * as Style from './styles';
+import HeaderSideImg from '../../utils/header-img';
 
 function Header() {
   return (
@@ -15,7 +15,9 @@ function Header() {
             <Style.HeaderSubtitle>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</Style.HeaderSubtitle>
             <Button value="Find a job" />
           </div>
-          <div><Style.HeaderImg src={work_at_home} alt="sideimg"/></div>
+          <Style.HeaderImg>
+            <HeaderSideImg />
+          </Style.HeaderImg>
         </Style.Wrapper>
       </Layout.Container>
     </>

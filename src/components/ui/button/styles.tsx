@@ -22,14 +22,14 @@ export const ButtonWrapper = styled.button<ButtonProps>`
     props.color === 'primary' &&
     css`
       --button: ${primary};
-      --hover: ${darken(0.19, primary)};
+      --hover: ${darken(0.15, primary)};
     `}
 
   ${props =>
     props.color === 'danger' &&
     css`
       --button: ${danger};
-      --hover: ${darken(0.19, danger)};
+      --hover: ${darken(0.15, danger)};
     `}
 
   ${props =>
@@ -112,5 +112,16 @@ export const ButtonWrapper = styled.button<ButtonProps>`
     fill: ${props =>
       props.variant === 'solid' ? 'var(--txt)' : 'var(--button)'};
     transition: 0.3s;
+  }
+
+  &.floating {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0 ${rem('30px')} ${rem('30px')} 0;
+    padding: 0;
+    width: 45px;
+    height: 45px;
+    box-shadow: 0px 6px 13px 0 rgba(0, 0, 0, 0.26);
   }
 `;

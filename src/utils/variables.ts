@@ -5,7 +5,6 @@ export const colors = {
   info: '#7a7a7a',
   warning: '#ffa724',
   danger: '#e22336',
-  purple: '#5231aa',
 };
 
 export const fontWeigth = {

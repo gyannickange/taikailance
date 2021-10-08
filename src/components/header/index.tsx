@@ -11,9 +11,12 @@ function Header() {
       <Layout.Container>
         <Style.Wrapper>
           <div>
-            <Style.HeaderTitle>Lorem Ipsum is simply dummy text of the printing</Style.HeaderTitle>
-            <Style.HeaderSubtitle>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</Style.HeaderSubtitle>
-            <Button value="Find a job" />
+            <Style.HeaderTitle>Join the world’s largest startup community</Style.HeaderTitle>
+            <Style.HeaderSubtitle>Experience the startup ecosystem — invest in startups, research the fastest-growing companies, and find a job you love.</Style.HeaderSubtitle>
+            <Button
+              value="Find a job"
+              type="button"
+            />
           </div>
           <Style.HeaderImg>
             <HeaderSideImg />

@@ -1,6 +1,5 @@
 import styled, { keyframes } from 'styled-components/macro';
 import { colors } from '../../utils/variables';
-import { rem } from 'polished';
 
 const { info } = colors;
 
@@ -66,6 +65,7 @@ export const HeaderImg = styled.div`
 export const HeaderTitle = styled.h1`
   font-size: 2.4rem;
   margin-bottom: 1rem;
+  text-transform: capitalize;
 `;
 
 export const HeaderSubtitle = styled.p`

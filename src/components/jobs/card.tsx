@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-import { Button, Tag } from '../';
+import { Button, Tag } from '..';
 import * as Style from './styles';
 import { Typography } from '../../styles';
 
@@ -45,6 +44,8 @@ const JobCard = (props: JobCardProps) => {
         </ul>
         <Button
           value="Apply"
+          variant="outline"
+          type="button"
           action={(e) => {
             e.preventDefault();
             window.location.href = "mailto:no-reply@example.com";
@@ -55,15 +56,14 @@ const JobCard = (props: JobCardProps) => {
         aria-expanded={isCollapsed}>
         <Typography.Paragraph dangerouslySetInnerHTML={{ __html: description }} />
         <div style={{margin: '2rem 0 3rem'}}>
-        <Link
-          to='#'
-          onClick={(e) => {
-            e.preventDefault();
-            window.location.href = "mailto:no-reply@example.com";
-          }}
-        >
-          <Button value="Apply" />
-        </Link>
+          <Button
+            value="Apply"
+            type="button"
+            action={(e) => {
+              e.preventDefault();
+              window.location.href = "mailto:no-reply@example.com";
+            }}
+          />
         </div>
       </Style.CollapseContent>
     </Style.Wrapper>

@@ -6,7 +6,7 @@ import { Button } from '../';
 
 export interface ModalProps {
   isShowing: boolean;
-  footer?: boolean,
+  footer?: boolean;
   onClose: () => void;
   title?: string;
   children?: React.ReactNode;

@@ -2,8 +2,9 @@
   {
     "id": 1,
     "name": "Backend Web Developer (Ruby on Rails)",
+    "job_title": "backend engineer",
     "company_name": "Toptal",
-    "location": "Anywhere (100% Remote)",
+    "location": "Anywhere",
     "company_market": "Software house",
     "type": "Full Time",
     "salary": "$60k — $100k/year",
@@ -23,8 +24,9 @@
   {
     "id": 2,
     "name": "Software Engineer",
+    "job_title": "software engineer",
     "company_name": "OarRx",
-    "location": "Anywhere (100% Remote)",
+    "location": "Anywhere",
     "company_market": "Software house",
     "type": "Full Time",
     "salary": "$110k – $155k/year",
@@ -40,6 +42,7 @@
   {
     "id": 3,
     "name": "React JS Developer (YCombinator backed startup)",
+    "job_title": "frontend engineer",
     "company_name": "Akiflow",
     "company_market": "Software house",
     "location": "Europe",
@@ -61,6 +64,7 @@
   {
     "id": 4,
     "name": "ReactJS Developer",
+    "job_title": "frontend engineer",
     "company_name": "Commvault Systems",
     "location": "United State",
     "company_market": "Healthcare",
@@ -78,8 +82,9 @@
   {
     "id": 5,
     "name": "Senior Software Engineer (Node.js / React.js)",
+    "job_title": "software engineer",
     "company_name": "Learning Tapestry",
-    "location": "Anywhere (100% Remote)",
+    "location": "Anywhere",
     "company_market": "Healthcare",
     "type": "Contract",
     "salary": "$80k – $120k/year",
@@ -97,8 +102,9 @@
   {
     "id": 6,
     "name": "Senior Engineer",
+    "job_title": "software engineer",
     "company_name": "Toptal",
-    "location": "Anywhere (100% Remote)",
+    "location": "Anywhere",
     "company_market": "Marketplaces",
     "type": "Full Time",
     "salary": "$76k – $83k/year",

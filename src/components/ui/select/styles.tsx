@@ -7,7 +7,7 @@ interface SelectStyleProps {
   error?: string;
 }
 
-const { normal, info, danger, purple } = colors;
+const { normal, info, danger, primary } = colors;
 
 export const SelectStyle = styled.select<SelectStyleProps>`
   border: 1px solid ${props => (props.error ? danger : info)};
@@ -25,7 +25,7 @@ export const SelectStyle = styled.select<SelectStyleProps>`
   transition-duration: 0.3s;
 
   &:hover {
-    border-color: ${purple};
+    border-color: ${primary};
   }
 
   &:-moz-focusring {

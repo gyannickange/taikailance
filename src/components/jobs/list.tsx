@@ -3,7 +3,7 @@ import JobCard from './card';
 import { ErrorField } from '../';
 import { useAppSelector, useAppDispatch } from '../../store/hooks';
 import { RootState } from '../../store';
-import { fetchJobs } from '../../components/jobs/indexSlice'
+import { fetchJobs } from '../../components/jobs/indexSlice';
 
 const JobsList = () => {
   const dispatch = useAppDispatch();

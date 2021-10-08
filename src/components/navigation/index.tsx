@@ -13,7 +13,11 @@ function Navigation() {
           <Link to="/">
             <img src={logo} alt="logo"/>
           </Link>
-          <Button value="Post a job"/>
+          <Button 
+            value="Post a job"
+            variant="outline"
+            type="button"
+          />
         </Style.Row>
       </Layout.Container>
     </Style.Navigation>

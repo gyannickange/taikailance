@@ -8,7 +8,7 @@ interface InputStyleProps {
   error?: string;
 }
 
-const { info, danger, purple } = colors;
+const { info, danger, primary } = colors;
 
 export const TextFieldInputStyle = styled.input<InputStyleProps>`
   border-width: ${props => (props.minimal ? '0 0 1px 0' : '1px')};
@@ -22,7 +22,7 @@ export const TextFieldInputStyle = styled.input<InputStyleProps>`
   transition-duration: 0.3s;
 
   &:focus {
-    border-color: ${purple};
+    border-color: ${primary};
     outline: none;
   }
 

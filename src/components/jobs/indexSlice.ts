@@ -8,7 +8,8 @@ interface Skill {
 
 interface Job {
   id: number;
-  name: string,
+  name: string;
+  job_title: string;
   company_name: string;
   location: string;
   type: string;
@@ -50,18 +51,14 @@ const jobs = createSlice({
     getJobsFailure(state, action: PayloadAction<string>) {
       state.loading = false;
       state.error = action.payload;
-    },
-    searchJobs: (state) => {
-
-    },
+    }
   }
 })
 
 export const {
   getJobsStart,
   getJobsSuccess,
-  getJobsFailure,
-  searchJobs
+  getJobsFailure
 } = jobs.actions
 export default jobs.reducer;
 
@@ -70,6 +67,29 @@ export const fetchJobs = (): AppThunk => async dispatch => {
     dispatch(getJobsStart());
     setTimeout(() => {
       const jobs = Jobs;
+      dispatch(getJobsSuccess({ jobs }));
+    }, 1500);
+  } catch (err) {
+    dispatch(getJobsFailure('Nothing when wrong'));
+  }
+}
+
+export const searchJobs = (data: any): AppThunk => async dispatch => {
+  try {
+    dispatch(getJobsStart());
+    setTimeout(() => {
+      let jobs;
+      if (!data) {
+        jobs = Jobs;
+        dispatch(getJobsSuccess({ jobs }));
+        return;
+      };
+      jobs = Jobs;
+
+      if (data.job_title) jobs = jobs.filter(job => data.job_title === job.job_title.toLowerCase());
+      if (data.company_name) jobs = jobs.filter(job => data.company_name === job.company_name.toLowerCase());
+      if (data.location) jobs = jobs.filter(job => data.location === job.location.toLowerCase());
+      
       dispatch(getJobsSuccess({ jobs }));
     }, 1500);
   } catch (err) {

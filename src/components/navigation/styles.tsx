@@ -1,5 +1,4 @@
 import styled from 'styled-components/macro';
-// import { colors } from '../../utils/variables';
 
 export const Navigation = styled.div`
   position: relative;

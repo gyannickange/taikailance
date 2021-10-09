@@ -7,7 +7,9 @@
     "location": "Anywhere",
     "company_market": "Software house",
     "type": "Full Time",
-    "salary": "$60k — $100k/year",
+    "team_size": "1-10",
+    "level": "Mid Level",
+    "salary": "$12,000 — $25,000",
     "skills": [
       {
       "name": "HTML"
@@ -19,7 +21,7 @@
         "name": "Ruby on Rails"
       }
     ],
-    "description": "<h3>Clevertech is hiring a Remote Senior Full Stack Engineer JavaScript</h3><p>Our 100% remote team of 200+ CleverPeople are seasoned yet friendly professionals who want to collaborate and welcome you. We have an exciting new opening for a Senior Full Stack Engineer - Javascript .</p><p>What we're working on Enterprise companies turn to us to help them launch innovative digital products that interact with hundreds of millions of customers, transactions and data points. The problems we solve everyday are real and require creativity, grit and determination. We are building a culture that challenges norms while fostering experimentation and personal growth. We are hiring team members who are passionate and energized by the vision of empowering our customers in a complex industry through technology, data and a deep understanding of client concerns. In order to grasp the scale of problems we face, ideally you have some exposure to Logistics, FinTech, Transportation, Insurance, Media or other complex multifactor industries.</p><strong>Requirements</strong><ul><li>7+ years of professional experience (A technical assessment will be required)</li><li>Senior-level experience in the front-end (React) and back-end (Node, Express Mongo, SQL)</li><li>Ability to create clean, modern, testable, well-documented code</li><li>English fluency, verbal and written</li><li>Professional, empathic, team player</li><li>Problem solver, proactive, go getter</li><li>Be sure to mention the words CLOG REGION DIRECT when applying to show you read the job post completely. This is a beta feature to avoid spam applicants.</li></ul><strong>Salary and compensation</strong><p>$60,000 — $100,000/year</p><strong>Location</strong><p>🌏 Worldwide</p>"
+    "description": "<h3>Clevertech is hiring a Remote Senior Full Stack Engineer JavaScript</h3><p>Our 100% remote team of 200+ CleverPeople are seasoned yet friendly professionals who want to collaborate and welcome you. We have an exciting new opening for a Senior Full Stack Engineer - Javascript .</p><p>What we're working on Enterprise companies turn to us to help them launch innovative digital products that interact with hundreds of millions of customers, transactions and data points. The problems we solve everyday are real and require creativity, grit and determination. We are building a culture that challenges norms while fostering experimentation and personal growth. We are hiring team members who are passionate and energized by the vision of empowering our customers in a complex industry through technology, data and a deep understanding of client concerns. In order to grasp the scale of problems we face, ideally you have some exposure to Logistics, FinTech, Transportation, Insurance, Media or other complex multifactor industries.</p><strong>Requirements</strong><ul><li>7+ years of professional experience (A technical assessment will be required)</li><li>Senior-level experience in the front-end (React) and back-end (Node, Express Mongo, SQL)</li><li>Ability to create clean, modern, testable, well-documented code</li><li>English fluency, verbal and written</li><li>Professional, empathic, team player</li><li>Problem solver, proactive, go getter</li><li>Be sure to mention the words CLOG REGION DIRECT when applying to show you read the job post completely. This is a beta feature to avoid spam applicants.</li></ul><strong>Salary and compensation</strong><p>$60,000 — $100,000</p><strong>Location</strong><p>🌏 Worldwide</p>"
   },
   {
     "id": 2,
@@ -29,7 +31,9 @@
     "location": "Anywhere",
     "company_market": "Software house",
     "type": "Full Time",
-    "salary": "$110k – $155k/year",
+    "team_size": "11-50",
+    "level": "Mid Level",
+    "salary": "$100,000 – $150,000",
     "skills": [
       {
       "name": "Ruby on Rails"
@@ -47,7 +51,9 @@
     "company_market": "Software house",
     "location": "Europe",
     "type": "Contract",
-    "salary": "€30k – €85k/year 0.1% – 1.0%",
+    "team_size": "1-10",
+    "level": "Mid Level",
+    "salary": "$50,000 – $100,000",
     "skills": [
       {
       "name": "Node.js"
@@ -69,7 +75,9 @@
     "location": "United State",
     "company_market": "Healthcare",
     "type": "Part Time",
-    "salary": "$40k – $80k",
+    "team_size": "51-99",
+    "level": "Entry Level",
+    "salary": "$100,000 – $150,000",
     "skills": [
       {
       "name": "React Native"
@@ -87,7 +95,9 @@
     "location": "Anywhere",
     "company_market": "Healthcare",
     "type": "Contract",
-    "salary": "$80k – $120k/year",
+    "team_size": "1-10",
+    "level": "Senior Level",
+    "salary": "$100,000 – $150,000",
     "skills": [
       {
       "name": "Node.js"
@@ -107,7 +117,9 @@
     "location": "Anywhere",
     "company_market": "Marketplaces",
     "type": "Full Time",
-    "salary": "$76k – $83k/year",
+    "team_size": "100+",
+    "level": "Senior Level",
+    "salary": "$25,000 - $50,000",
     "skills": [
       {
         "name": "HTML"

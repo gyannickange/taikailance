@@ -7,15 +7,18 @@ interface Skill {
 }
 
 interface Job {
-  id: number;
-  name: string;
-  job_title: string;
-  company_name: string;
-  location: string;
-  type: string;
-  salary: string;
-  description: any;
-  skills: Skill[];
+  id?: number;
+  name?: string;
+  job_title?: string;
+  company_name?: string;
+  location?: string;
+  type?: string;
+  salary?: string;
+  description?: any;
+  team_size?: string;
+  company_market?: string;
+  level?: string;
+  skills?: Skill[];
 }
 
 interface JobsLoaded {
@@ -65,10 +68,8 @@ export default jobs.reducer;
 export const fetchJobs = (): AppThunk => async dispatch => {
   try {
     dispatch(getJobsStart());
-    setTimeout(() => {
-      const jobs = Jobs;
-      dispatch(getJobsSuccess({ jobs }));
-    }, 1500);
+    const jobs = Jobs;
+    dispatch(getJobsSuccess({ jobs }));
   } catch (err) {
     dispatch(getJobsFailure('Nothing when wrong'));
   }
@@ -77,21 +78,27 @@ export const fetchJobs = (): AppThunk => async dispatch => {
 export const searchJobs = (data: any): AppThunk => async dispatch => {
   try {
     dispatch(getJobsStart());
-    setTimeout(() => {
-      let jobs;
-      if (!data) {
-        jobs = Jobs;
-        dispatch(getJobsSuccess({ jobs }));
-        return;
-      };
+    let jobs;
+    if (!data) {
       jobs = Jobs;
-
-      if (data.job_title) jobs = jobs.filter(job => data.job_title === job.job_title.toLowerCase());
-      if (data.company_name) jobs = jobs.filter(job => data.company_name === job.company_name.toLowerCase());
-      if (data.location) jobs = jobs.filter(job => data.location === job.location.toLowerCase());
-      
       dispatch(getJobsSuccess({ jobs }));
-    }, 1500);
+      return;
+    };
+    jobs = Jobs;
+
+    if (data.job_title) jobs = jobs.filter(job => data.job_title === job.job_title.toLowerCase());
+    if (data.company_name) jobs = jobs.filter(job => data.company_name === job.company_name.toLowerCase());
+    if (data.location) jobs = jobs.filter(job => data.location === job.location.toLowerCase());
+    if (data.skills?.length) jobs = jobs.filter(job => job.skills.filter(skill => data.skills.includes(skill.name.toLowerCase())));
+    if (data.markets?.length) jobs = jobs.filter(job => data.markets.includes(job.company_market.toLowerCase()));
+    if (data.levels?.length) jobs = jobs.filter(job => data.levels.includes(job.level.toLowerCase()));
+    if (data.teamSizes?.length) jobs = jobs.filter(job => data.teamSizes.includes(job.team_size.toLowerCase()));
+    if (data.types?.length) jobs = jobs.filter(job => data.types.includes(job.type.toLowerCase()));
+    if (data.salaries?.length) jobs = jobs.filter(job => data.salaries.includes(job.salary.toLowerCase()));
+    console.log(data, 'data')
+    console.log(jobs, 'jobs')
+    
+    dispatch(getJobsSuccess({ jobs }));
   } catch (err) {
     dispatch(getJobsFailure('Nothing when wrong'));
   }

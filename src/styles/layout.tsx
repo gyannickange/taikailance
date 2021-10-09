@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 import { device } from '../utils/breakpoints';
+import { rem } from 'polished';
 
 export const Container = styled.div`
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: ${rem('16px')};
+  padding-left: ${rem('16px')};
   margin-right: auto;
   margin-left: auto;
 

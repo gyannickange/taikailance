@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components/macro';
+import { rem } from 'polished';
 
 interface ModalProps {
   zIndex?: number;
@@ -13,7 +14,6 @@ export const Modal = styled.div<ModalProps>`
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
-  align-items: center;
   justify-content: center;
   opacity: 0;
   transition: all 0.3s ease-in-out;
@@ -55,20 +55,26 @@ export const ModalContent = styled.div<ModalProps>`
     css`
       --width: 500px;
     `}
-
+  
+  margin: 2rem 0;
   width: var(--width);
+  min-height: 300px;
+  overflow: auto;
+  max-height: 617px;
   background-color: #fff;
   transition: all 0.3s ease-in-out;
-  transform: translateY(-200px);
   border-radius: 10px;
 `;
 
 export const ModalHeader = styled.div`
-  padding: 10px;
+  padding: ${rem('16px')};
+  border-bottom: 1px solid #eee;
 `;
 
 export const ModalFooter = styled.div`
-  padding: 10px;
+  padding: ${rem('16px')};
+  border-top: 1px solid #eee;
+  text-align: right;
 `;
 
 export const ModalTitle = styled.div`
@@ -76,7 +82,5 @@ export const ModalTitle = styled.div`
 `;
 
 export const ModalBody = styled.div`
-  padding: 10px;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  padding: ${rem('16px')};
 `;

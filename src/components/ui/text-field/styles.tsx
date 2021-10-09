@@ -1,5 +1,5 @@
 import styled from 'styled-components/macro';
-import { lighten } from 'polished';
+import { lighten, rem } from 'polished';
 import { colors } from '../../../utils/variables';
 
 interface InputStyleProps {
@@ -8,18 +8,24 @@ interface InputStyleProps {
   error?: string;
 }
 
-const { info, danger, primary } = colors;
+const { normal, info, danger, primary } = colors;
 
 export const TextFieldInputStyle = styled.input<InputStyleProps>`
-  border-width: ${props => (props.minimal ? '0 0 1px 0' : '1px')};
-  border-style: solid;
-  border-color: ${props => (props.error ? danger : info)};
-  border-radius: ${props => (props.minimal ? 0 : '6px')};
-  height: ${props => (props.minimal ? '40px' : '50px')};
-  padding: ${props => (props.minimal ? 0 : '10px')};
-  font-family: inherit;
-  font-size: 1rem;
-  transition-duration: 0.3s;
+  display: block;
+  width: 100%;
+  padding: ${rem('6px')} ${rem('12px')};
+  font-size: ${rem('16px')};
+  font-weight: 400;
+  line-height: 1.5;
+  color: ${normal};
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid ${lighten(0.4, info)};
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: ${rem('4px')};
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 
   &:focus {
     border-color: ${primary};

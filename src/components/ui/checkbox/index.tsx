@@ -2,6 +2,7 @@ import React, { CSSProperties } from 'react';
 import * as Styles from './styles';
 
 interface Props {
+  name: string;
   value: string;
   label?: string | React.ReactNode;
   checked?: boolean | undefined;
@@ -17,6 +18,7 @@ interface Props {
 const Checkbox = (props: Props) => {
   const {
     label,
+    name,
     value,
     checked = false,
     onChange = () => {},
@@ -38,7 +40,8 @@ const Checkbox = (props: Props) => {
       <Styles.CheckboxLabel>{label}</Styles.CheckboxLabel>
       <Styles.CheckboxInput
         type="checkbox"
-        name={value}
+        name={name}
+        value={value}
         defaultChecked={checked}
         aria-checked={checked}
         onChange={onChange}

@@ -50,7 +50,9 @@ const Modal = (props: ModalProps) => {
           {footer && (
             <Style.ModalFooter>
               <Button
-                value="Close"
+                value="View results"
+                variant="outline"
+                color="dark"
                 action={onClose}
               />
             </Style.ModalFooter>

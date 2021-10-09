@@ -1,8 +1,9 @@
 import styled from 'styled-components/macro';
+import { rem } from 'polished';
 
 export const Navigation = styled.div`
   position: relative;
-  padding: 1.5rem;
+  padding: ${rem('24px')} ${rem('16px')};
 
   img {
     max-width: 160px;

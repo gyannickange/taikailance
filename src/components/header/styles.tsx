@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components/macro';
+import { device } from '../../utils/breakpoints';
 import { colors } from '../../utils/variables';
 
 const { info } = colors;
@@ -29,18 +30,28 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 1.5rem 0 3rem;
-
-  div:first-child {
-    max-width: 600px;
-  }
 `;
 
+export const HeaderContent = styled.div`
+  max-width: 600px;
+  width: 100%;
+
+  @media ${device.l} {
+    width: 60%;
+  }
+}`
+
 export const HeaderImg = styled.div`
+  margin: 2rem 0 5rem;
+
+  @media ${device.l} {
+    width: 40%;
+    margin: 2rem 0;
+  }
+
   svg {
     width: 450px;
     max-width: 100%;
-    margin: 0 auto;
     
     .sharp-1 {
       transform-origin: top left;

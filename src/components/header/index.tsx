@@ -10,14 +10,14 @@ function Header() {
       <Navigation />
       <Layout.Container>
         <Style.Wrapper>
-          <div>
+          <Style.HeaderContent>
             <Style.HeaderTitle>Join the world’s largest startup community</Style.HeaderTitle>
             <Style.HeaderSubtitle>Experience the startup ecosystem — invest in startups, research the fastest-growing companies, and find a job you love.</Style.HeaderSubtitle>
             <Button
               value="Find a job"
               type="button"
             />
-          </div>
+          </Style.HeaderContent>
           <Style.HeaderImg>
             <HeaderSideImg />
           </Style.HeaderImg>

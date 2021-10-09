@@ -1,6 +1,7 @@
 import styled from 'styled-components/macro';
 import { lighten } from 'polished';
 import { colors } from '../../utils/variables';
+import { device } from '../../utils/breakpoints';
 
 const { info, primary, light } = colors;
 
@@ -25,6 +26,7 @@ export const SearchTop = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 `;
 
 export const SearchBottom = styled.div`
@@ -51,5 +53,17 @@ export const SearchBottom = styled.div`
     &:hover {
       background-color: ${lighten(0.3, primary)};
     }
+  }
+`;
+
+export const FlexWrapColumn = styled.div`
+  border: 1px solid ${lighten(0.4, info)};
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: 100%;
+
+  @media ${device.m} {
+    flex: 1;
   }
 `;

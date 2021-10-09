@@ -27,14 +27,12 @@ const TextField = (props: TextFieldProps) => {
   const {
     type = 'text',
     minimal = true,
+    value,
     icon,
     name,
-    value,
     defaultValue,
-    onChange = () => {},
     placeholder = '',
-    min,
-    max,
+    onChange = () => {},
     disabled = false,
     error,
     dataTestId,
@@ -42,28 +40,30 @@ const TextField = (props: TextFieldProps) => {
     style,
     pattern,
     required = false,
+    min,
+    max,
   } = props;
 
   return (
     <>
       <Styles.TextFieldInputStyle
-        minimal={minimal}
         icon={icon}
-        type={type}
         name={name}
+        minimal={minimal}
+        type={type}
         value={value}
         defaultValue={defaultValue}
         onChange={onChange}
         placeholder={placeholder}
-        min={min}
-        max={max}
         disabled={disabled}
+        className={className}
         error={error}
         data-testid={dataTestId}
-        className={className}
         style={style}
         pattern={pattern}
         required={required}
+        min={min}
+        max={max}
       />
       {error ? <ErrorField error={error} /> : null}
     </>

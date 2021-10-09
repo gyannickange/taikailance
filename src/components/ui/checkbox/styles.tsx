@@ -32,8 +32,8 @@ export const CheckboxWrapper = styled.label<CheckboxWrapperProps>`
 `;
 
 export const CheckboxLabel = styled.span`
-  margin-left: calc(24px + 5px);
-  line-height: 24px;
+  margin-left: calc(21px + 3px);
+  line-height: 16px;
 `;
 
 export const CheckboxInput = styled.input<CheckboxWrapperProps>`
@@ -82,22 +82,22 @@ export const Checkmark = styled.span<CheckboxErrorProps>`
   position: absolute;
   top: 0;
   left: 0;
-  border: 2px solid ${props => (props.error ? danger : lighten(0.4, info))};
+  border: 1px solid ${props => (props.error ? danger : lighten(0.4, info))};
   border-radius: 100%;
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
   transition-duration: 0.3s;
 
   &:after {
     content: '';
     position: absolute;
     display: none;
-    top: 3px;
-    left: 6px;
-    width: 5px;
-    height: 9px;
+    top: 2px;
+    left: 5px;
+    width: 4px;
+    height: 8px;
     border: solid ${light};
-    border-width: 0 3px 3px 0;
+    border-width: 0 1px 1px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);

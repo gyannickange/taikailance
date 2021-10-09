@@ -39,9 +39,9 @@ const JobCard = (props: JobCardProps) => {
           <Style.JobCardTitle>{name}</Style.JobCardTitle>
           <Style.JobCardSubtitle>{location} . {type} . {salary}</Style.JobCardSubtitle>
         </div>
-        <ul style={{ padding: 0 }}>
+        <Style.JobCardFirstSkillsList style={{ padding: 0 }}>
           {skills!.map((skill: Skill, i: number) => <Tag key={i} value={skill.name} />)}
-        </ul>
+        </Style.JobCardFirstSkillsList>
         <Button
           value="Apply"
           variant="outline"

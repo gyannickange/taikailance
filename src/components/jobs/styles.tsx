@@ -1,4 +1,5 @@
 import styled from 'styled-components/macro';
+import { device } from '../../utils/breakpoints';
 import { colors } from '../../utils/variables';
 
 const { primary } = colors;
@@ -58,4 +59,12 @@ export const JobCardTitle = styled.div`
 
 export const JobCardSubtitle = styled.div`
   font-size: 0.875rem;
+`;
+
+export const JobCardFirstSkillsList = styled.div`
+  display: none;
+
+  @media ${device.m} {
+    display: block;
+  }
 `;

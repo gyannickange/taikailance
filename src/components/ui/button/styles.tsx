@@ -47,9 +47,6 @@ export const ButtonWrapper = styled.button<ButtonProps>`
       --hover: ${darken(1, normal)};
     `}
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-width: ${props => (props.variant === 'outline' ? '1px' : 0)};
   border-style: solid;
   border-color: var(--button);
@@ -105,6 +102,7 @@ export const ButtonWrapper = styled.button<ButtonProps>`
   }
 
   svg {
+    vertical-align: middle;
     order: ${props => (props.iconPosition === 'left' ? 1 : 2)};
     width: auto;
     min-width: ${rem('20px')};

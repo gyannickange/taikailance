@@ -25,6 +25,18 @@ const wind = keyframes`
   }
 `;
 
+const type = keyframes`
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+`;
+
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;
@@ -69,6 +81,44 @@ export const HeaderImg = styled.div`
       transform-origin: bottom;
       transform-box: fill-box;
       animation: ${wind} 3s ease infinite;
+    }
+
+    .finger-1 {
+      transform-origin: left;
+      transform-box: fill-box;
+      animation: ${type} 0.5s ease infinite;
+    }
+    .finger-2 {
+      transform-origin: left;
+      transform-box: fill-box;
+      animation: ${type} 1s ease infinite;
+    }
+    .finger-3 {
+      transform-origin: left;
+      transform-box: fill-box;
+      animation: ${type} 2s ease infinite;
+    }
+
+    .character-1-hand {
+      transform-origin: left;
+      transform-box: fill-box;
+      animation: ${wind} 7s ease infinite;
+    }
+    .character-1-head {
+      transform-origin: left;
+      transform-box: fill-box;
+      amimation-dalay: 10s;
+      animation: ${wind} 10s ease infinite;
+    }
+    .character-2-head {
+      transform-origin: bottom;
+      transform-box: fill-box;
+      animation: ${wind} 10s ease infinite;
+    }
+    .character-3-head {
+      transform-origin: bottom;
+      transform-box: fill-box;
+      animation: ${wind} 5s ease infinite;
     }
   }
 `;

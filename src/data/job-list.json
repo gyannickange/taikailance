@@ -132,5 +132,95 @@
       }
     ],
     "description": "<h3>Senior Engineer</h3><strong>About the role</strong><p>We're looking for a creative engineer to join our early team! You'll work closely with the co-founders and defining the product roadmap together and have a lot of room for flexibility.</p><strong>What you'll be doing at Chisel:</strong><ul><li>Owning ideas from inception to execution</li><li>Working directly with founders to define the product and engineering roadmap</li><li>Designing and implementing backend functionality, DB architecture, and more</li><li>Building out core social features on front-end interfaces to enhance engagement</li></ul><strong>Technical skills we'd love to see:</strong><ul><li>You have shipped full-stack products before - whether it was in your day job or projects outside of work</li><li>You have experience working across the stack with frameworks like React, Node.js, databases (Neo4J. or relational), and platforms like AWS</li><li>You embrace Serverless technology and containers</li><li>You have 3+ years experience working on full-stack projects</li><li>You have experience in small startup environments</li></ul><strong>Benefits</strong><ul><li>Health/Dental/Vision</li><li>Unlimited vacation policy</li><li>Paid lunches</li><li>Travel budget</li><li>Equity Package</li></ul><strong>Salary Range</strong><p>Since we're just starting out, we can't offer any eye-popping salaries but we plan to start this off around $76,000-$83,000.</p>"
+  },
+  {
+    "id": 7,
+    "name": "Senior Software Engineer",
+    "job_title": "software engineer",
+    "company_name": "Toptal",
+    "location": "Europe",
+    "company_market": "Cryptocurrency and Blockchain",
+    "type": "Full Time",
+    "team_size": "100+",
+    "level": "Senior Level",
+    "salary": "$100,000 – $150,000",
+    "skills": [
+      {
+        "name": "HTML"
+      }, {
+        "name": "Javascript"
+      }, {
+        "name": "React.js"
+      }, {
+        "name": "Vue.js"
+      }
+    ],
+    "description": "<h3>Senior Software Engineer</h3><p>We are looking to build out our engineering team with a senior full-stack developer. You will be responsible for working with the team lead to ship code and scale our application as part of a fast growing company working in the electrical services industry. Ideally, you’re comfortable working in React and Java or able to pick up both quickly and thrive working as part of a small team taking on lots of responsibility. We’re a small group looking for someone who will be hands on from day one.</p><strong>What you’ll do</strong><ul><li>Build software for electricians on a React and Spring Boot stack hosted on AWS</li><li>Some days work independently, taking ownership of new feature work from start to finish</li><li>Other days pair with your team members, working together to write code</li><li>Collaborate with a wide range of team members in product, design, and engineering management</li></ul><strong>What you bring to the role</strong><ul><li>Typically 3-4 years of experience shipping high quality production code</li><li>Strong understanding of OOP and software application design best practices</li><li>Knowledge of relational databases, data modeling, and SQL query design</li><li>Understanding of one or more MVC (Spring Boot, Rails, Django) and frontend (React, Vue) frameworks</li><li>Previous experience with AWS and Kubernetes. Additional dev ops experience a plus.</li><li>Willingness to work and collaborate remotely</li><li>Comfort with Git and Github workflows</li></ul><strong>About Coil:</strong><p>Coil, Inc. is revolutionizing the electrical industry through innovation, enabling the future of renewable energy. We partner with OEMs, channel partners, and other service providers to identify, install, and provide the best electrical solutions. Coil, Inc. serves thousands of customers and businesses nationally through its two business units: Coil Electric, a premier, full service electrical installer specializing in new energy installations, and COIL iQ, a software management tool for Electricians & the Renewables Industry.</p><p>Coil, Inc. is committed to building diverse teams. All applicants will receive consideration without regard to race, color, ancestry, sex, religion, gender, gender identity or expression, sexual orientation, marital status, national origin, citizenship, genetics, disability, age, veteran status or other characteristics. We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please notify us to request accommodation.</p>"
+  },
+  {
+    "id": 8,
+    "name": "Software Engineer, Frontend",
+    "job_title": "frontend engineer",
+    "company_name": "Toptal",
+    "location": "Anywhere",
+    "company_market": "Cryptocurrency and Blockchain",
+    "type": "Full Time",
+    "team_size": "100+",
+    "level": "Senior Level",
+    "salary": "$100,000 – $150,000",
+    "skills": [
+      {
+        "name": "HTML"
+      }, {
+        "name": "Javascript"
+      }, {
+        "name": "React.js"
+      }
+    ],
+    "description": "<h3>Software Engineer, Frontend</h3><p>Our mission at Juked is to bring esports fans closer together. We’re building a new social network where esports fans from every game and genre will convene in one place, for the first time, to forge new relationships, drive deeper connections, and experience the electric moments that make up the esports we love—together.</p><p>We are well on our way to making this mission a reality, and are seeking a Frontend Engineer with React/React Native experience to help us build the new home for esports fans. You will work with state of the art technologies to develop a social media platform that services millions of people. As a member of our engineering team, you will play a significant role in building and shaping our product. Your work will be critical to our success.</p><p>If you are excited about creating an open, inclusive, and positive future for the esports community and want to be part of a talented and passionate founding team, come join us at Juked!</p><strong>As a Frontend Engineer, you will:</strong><ul><li>Work with the engineering team to develop high quality mobile and web products with the rest of the engineering team</li><li>Take ownership of your code and become the expert in your segment of the product</li><li>Collaborate with designers and the product team to develop delightful interfaces and experiences</li><li>Tackle challenging social features at scale: improve our content feed, implement live chat during esports events, or contribute to our anti-toxicity moderation technology</li><li>Dive into the unknown alongside a similarly driven team of creators. Communication, collaboration, respect, and adaptability are key tenets of this squad.</li></ul><strong>What you’ll bring to our team</strong><ul><li>A fresh perspective on how to solve the challenges of building the Juked products</li><li>Ability to work effectively in a team setting, including creatively turning abstract ideas into concrete design solutions</li><li>3+ years experience as a software developer building scalable mobile and/or web apps</li><li>2+ years experience writing Javascript (ES6+) and using React, preferably with Typescript</li><li>Passion for esports, gaming, or online communities</li></ul><strong>Bonus Points</strong><ul><li>Experience with mobile programming languages (Swift, Java, Kotlin, Objective-C) and/or React Native</li><li>Have built a gaming or esports related side project</li><li>Excited to tackle the unknown</li><li>Desire to grow with the product and challenge yourself regularly</li></ul><strong>What We Offer At Juked</strong><lu><li>A chance to work on solutions that improve the daily life of esports fans—from building novel ways to connect and chat, making it easier to stay connected to the biggest moments from their favorite games and teams, to creating a safe, open, and inclusive environment for discussion.</li><li>A passionate, exceptional, and closed-knit team that loves video games</li><li>A place where your ideas and your voice will be heard, and your hard work will be instrumental to the success of the company</li><li>An opportunity to build innovative products that will have a lasting impact on the lives of esports fans</li><li>A fast-paced and fun working environment</li><li>Benefits including Medical insurance (Health, Dental, Vision) and 401K</li><li>Substantial equity ownership in a fast growing startup</li></lu><strong>About Juked</strong><p>We’re passionate esports fans to the very core of our DNA: founders Ben & Chris have 25+ combined years of experience in leading entrepreneurial roles in the industry (including the founding team at Twitch), and are both former competitive players, commentators, content creators, and tournament organizers.</p><p>We launched Juked in November 2019 as the best way to Discover, Watch, and Follow the esports you care about, and our web product now reaches more 50,000 unique users per month. We are taking the next step to make Juked part of the daily habit of 500+ million esports fans around the world with our upcoming mobile application and our renewed focus on building the social and community hub for esports.</p><p>Esports is growing like crazy, but we at Juked know that esports is still in its infancy and has decades of exponential growth ahead. We're aiming to play a massive role in that evolution.</p>"
+  },
+  {
+    "id": 9,
+    "name": "Software Engineer",
+    "job_title": "software engineer",
+    "company_name": "Commvault Systems",
+    "location": "Anywhere",
+    "company_market": "Ecommerce",
+    "type": "Part Time",
+    "team_size": "1-10",
+    "level": "Senior Level",
+    "salary": "$100,000 – $150,000",
+    "skills": [
+      {
+        "name": "HTML"
+      }, {
+        "name": "Javascript"
+      }, {
+        "name": "React.js"
+      }
+    ],
+    "description": "<p>As a Happiness Support Engineer, you love helping people.</p><p>Transforming publishing on the web is no small task. Our goal is to build relationships based on trust, resulting in happy, passionate, loyal customers and colleagues. We do this by listening to our customers’ needs and guiding them to the fullest use of the products we offer. We are looking for people with the right mix of compassion, writing skills, and technical knowledge to get the job done.</p><p>Are you interested in learning more about how our team works? Check out what Happiness Support Engineers have to say about their work.</p><strong>In general, a typical day involves:</strong><ul><li>Being an active member of a global team that provides 24/7 support via live chat, tickets, one-on-one screen share sessions, and forums.</li><li>Helping people use Automattic’s products, including WordPress.com, WooCommerce, Jetpack, Tumblr, and more.</li><li>Troubleshooting, investigating, and creating detailed bug reports.</li><li>Building a community of support by sharing knowledge and helping team members around the world.</li></ul><strong>Being a Happiness Support Engineer requires:</strong><ul><li>Mid to high proficiency with HTML, and CSS.</li><li>Experience providing technical support to customers, particularly via live chat, tickets, telephone, or forums.</li><li>Excellent written and communication skills, with a knack for taking technical language and making it understandable for the general public.</li><li>A passion for solving challenging problems and proposing elegant solutions.</li><li>Solid ability to identify and accurately document technical issues.</li><li>An intense intellectual curiosity and an eagerness to share knowledge with others.</li><li>Patience, grace, and a sense of humor.</li><li>Sr Happiness Support Engineers must be fluent and eloquent in written English. If you know additional languages, please be sure to tell us.</li></ul><strong>An ideal candidate</strong><ul><li>Has created three or more WordPress websites.</li><li>Has experience installing and configuring WordPress plugins and themes.</li><li>Is adept at troubleshooting technical issues.</li><li>Has experience creating bug reports.</li><li>Has experience providing technical support to customers via telephone, tickets, live chat, or forums.</li></ul>"
+  },
+  {
+    "id": 10,
+    "name": "Senior Software Engineer",
+    "job_title": "software engineer",
+    "company_name": "Commvault Systems",
+    "location": "Anywhere",
+    "company_market": "Ecommerce",
+    "type": "Contract",
+    "team_size": "1-10",
+    "level": "Senior Level",
+    "salary": "$100,000 – $150,000",
+    "skills": [
+      {
+        "name": "Ruby on Rails"
+      }, {
+        "name": "Javascript"
+      }, {
+        "name": "React.js"
+      }
+    ],
+    "description": "<p>DockYard is hiring a Senior Swift Open Source Engineer. This role will be dedicated to working on a high-value open source project and report directly to the Director of Research & Development at DockYard.</p><strong>Who We Are</strong><p>DockYard is a digital product consultancy specializing in production-ready apps. DockYard offers a range of consulting services with capabilities in product planning, design, user experience (UX), full-stack engineering, and QA. Over the last decade, the company has solved complex product challenges for visionary brands like Netflix, Apple, Nasdaq, and Harvard.</p><p>We’re honored to have been included on guides ranging from Inc 5000 (2020, 2019) to Fast Company’s Best Places to Work for Innovators (2020) amongst others.</p><strong>The Role</strong><p>In this role, you will be tasked with working on a Swift and SwiftUI open source project that will be highly visible and of high value to DockYard. You will be involved with the architecture and implementation of a high-value open source project.</p><p>The ideal candidate is a self-starter and independent engineer who enjoys contributing to open-source projects. Having a demonstrable open source contribution record in Swift and SwiftUI projects will be a plus.</p><strong>Responsibilities</strong><ul><li>Reporting directly and in coordination with the Dir of R&D</li><li>Implementing a Swift/SwiftUI Open Source project</li><li>Contributing back to supporting libraries that enhance said project</li></ul><strong>Must Haves</strong><ul><li>2 – 3 years of Swift experience</li><li>1 – 2 years of SwiftUI experience</li><li>A desire to build well tested and battle-hardened code</li><li>Existing open-source projects in Swift/SwiftUI</li></ul>"
   }
 ]

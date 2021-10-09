@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components/macro';
 import { fontWeigth, colors } from '../utils/variables';
 
 const { regular } = fontWeigth;
-const { normal } = colors;
+const { normal, info, primary } = colors;
 
 const GlobalStyle= createGlobalStyle`
 * {
@@ -41,6 +41,11 @@ h6 {
 a {
 	-webkit-transition: .3s all;
 	transition: .3s all;
+  color: ${info};
+
+  &:hover {
+    color: ${primary};
+  }
 }
 
 p,

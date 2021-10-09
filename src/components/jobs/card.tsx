@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Button, Tag } from '..';
 import * as Style from './styles';
 import { Typography } from '../../styles';
@@ -29,7 +29,7 @@ const JobCard = (props: JobCardProps) => {
     description,
     skills,
   } = props;
-  const [isCollapsed, setIsCollapsed] = React.useState(collapsed);
+  const [isCollapsed, setIsCollapsed] = useState(collapsed);
   
   return (
     <Style.Wrapper>
@@ -37,7 +37,7 @@ const JobCard = (props: JobCardProps) => {
         <div>
           <Style.JobCardCompanyName>{company_name}</Style.JobCardCompanyName>
           <Style.JobCardTitle>{name}</Style.JobCardTitle>
-          <Style.JobCardSubtitle>{location} . {type} . {salary}</Style.JobCardSubtitle>
+          <Style.JobCardSubtitle>{location} . {type} . {salary}/year</Style.JobCardSubtitle>
         </div>
         <Style.JobCardFirstSkillsList style={{ padding: 0 }}>
           {skills!.map((skill: Skill, i: number) => <Tag key={i} value={skill.name} />)}
@@ -48,7 +48,7 @@ const JobCard = (props: JobCardProps) => {
           type="button"
           action={(e) => {
             e.preventDefault();
-            window.location.href = "mailto:no-reply@example.com";
+            window.location.href = `mailto:no-reply@example.com?subject=New applicant from Taikailance for ${name}`;
           }}
         />
       </Style.CollapseButton>
@@ -61,7 +61,7 @@ const JobCard = (props: JobCardProps) => {
             type="button"
             action={(e) => {
               e.preventDefault();
-              window.location.href = "mailto:no-reply@example.com";
+              window.location.href = `mailto:no-reply@example.com?subject=New applicant from Taikailance for ${name}`;
             }}
           />
         </div>

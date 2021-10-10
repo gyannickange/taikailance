@@ -2,7 +2,7 @@ import React, { CSSProperties } from 'react';
 import * as Styles from './styles';
 
 interface Props {
-  name: string;
+  name?: string;
   value: string;
   label?: string | React.ReactNode;
   checked?: boolean | undefined;

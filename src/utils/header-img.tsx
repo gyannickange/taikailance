@@ -621,6 +621,7 @@ const HeaderSideImg = () => (
             id="Path" stroke="#263238" fill="#FFFFFF" fillRule="nonzero" strokeLinecap="round" strokeLinejoin="round">
           </path>
           <path
+            className="finger-2"
             d="M117.07,179.05 C117.07,179.05 145.3,159.05 148.32,159.05 C151.34,159.05 164.88,165.05 167.89,166.58 C170.9,168.11 174.67,176.37 174.67,176.37 C174.67,176.37 173.91,178.25 171.28,176.75 C168.65,175.25 165.63,170.35 165.63,170.35 L150.63,169.77 C150.63,169.77 146.84,173.34 144.58,174.09 C142.095271,174.708052 139.568458,175.142557 137.02,175.39 L132.16,179.76 L117.07,179.05 Z"
             id="Path" stroke="#263238" fill="#FFFFFF" fillRule="nonzero" strokeLinecap="round" strokeLinejoin="round">
           </path>

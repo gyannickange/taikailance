@@ -47,6 +47,7 @@ export const Wrapper = styled.div`
 export const HeaderContent = styled.div`
   max-width: 600px;
   width: 100%;
+  margin: 2rem 0;
 
   @media ${device.l} {
     width: 60%;
@@ -68,13 +69,13 @@ export const HeaderImg = styled.div`
     .sharp-1 {
       transform-origin: top left;
       transform-box: fill-box;
-      animation: ${rotation} 3s linear infinite;
+      animation: ${rotation} 11s linear infinite;
     }
 
     .sharp-2 {
       transform-origin: top right;
       transform-box: fill-box;
-      animation: ${rotation} 5s linear infinite;
+      animation: ${rotation} 13s linear infinite;
     }
 
     .wind {
@@ -86,17 +87,17 @@ export const HeaderImg = styled.div`
     .finger-1 {
       transform-origin: left;
       transform-box: fill-box;
-      animation: ${type} 0.5s ease infinite;
+      animation: ${type} 0.3s ease infinite;
     }
     .finger-2 {
       transform-origin: left;
       transform-box: fill-box;
-      animation: ${type} 1s ease infinite;
+      animation: ${type} 0.5s ease infinite;
     }
     .finger-3 {
       transform-origin: left;
       transform-box: fill-box;
-      animation: ${type} 2s ease infinite;
+      animation: ${type} 0.6s ease infinite;
     }
 
     .character-1-hand {

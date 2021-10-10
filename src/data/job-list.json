@@ -9,7 +9,7 @@
     "type": "Full Time",
     "team_size": "1-10",
     "level": "Mid Level",
-    "salary": "$12,000 — $25,000",
+    "salary": "$12,000 - $25,000",
     "skills": [
       {
       "name": "HTML"
@@ -33,7 +33,7 @@
     "type": "Full Time",
     "team_size": "11-50",
     "level": "Mid Level",
-    "salary": "$100,000 – $150,000",
+    "salary": "$100,000 - $150,000",
     "skills": [
       {
       "name": "Ruby on Rails"
@@ -53,7 +53,7 @@
     "type": "Contract",
     "team_size": "1-10",
     "level": "Mid Level",
-    "salary": "$50,000 – $100,000",
+    "salary": "$50,000 - $100,000",
     "skills": [
       {
       "name": "Node.js"
@@ -77,7 +77,7 @@
     "type": "Part Time",
     "team_size": "51-99",
     "level": "Entry Level",
-    "salary": "$100,000 – $150,000",
+    "salary": "$100,000 - $150,000",
     "skills": [
       {
       "name": "React Native"
@@ -97,7 +97,7 @@
     "type": "Contract",
     "team_size": "1-10",
     "level": "Senior Level",
-    "salary": "$100,000 – $150,000",
+    "salary": "$100,000 - $150,000",
     "skills": [
       {
       "name": "Node.js"
@@ -143,7 +143,7 @@
     "type": "Full Time",
     "team_size": "100+",
     "level": "Senior Level",
-    "salary": "$100,000 – $150,000",
+    "salary": "$100,000 - $150,000",
     "skills": [
       {
         "name": "HTML"
@@ -167,7 +167,7 @@
     "type": "Full Time",
     "team_size": "100+",
     "level": "Senior Level",
-    "salary": "$100,000 – $150,000",
+    "salary": "$100,000 - $150,000",
     "skills": [
       {
         "name": "HTML"
@@ -177,7 +177,7 @@
         "name": "React.js"
       }
     ],
-    "description": "<h3>Software Engineer, Frontend</h3><p>Our mission at Juked is to bring esports fans closer together. We’re building a new social network where esports fans from every game and genre will convene in one place, for the first time, to forge new relationships, drive deeper connections, and experience the electric moments that make up the esports we love—together.</p><p>We are well on our way to making this mission a reality, and are seeking a Frontend Engineer with React/React Native experience to help us build the new home for esports fans. You will work with state of the art technologies to develop a social media platform that services millions of people. As a member of our engineering team, you will play a significant role in building and shaping our product. Your work will be critical to our success.</p><p>If you are excited about creating an open, inclusive, and positive future for the esports community and want to be part of a talented and passionate founding team, come join us at Juked!</p><strong>As a Frontend Engineer, you will:</strong><ul><li>Work with the engineering team to develop high quality mobile and web products with the rest of the engineering team</li><li>Take ownership of your code and become the expert in your segment of the product</li><li>Collaborate with designers and the product team to develop delightful interfaces and experiences</li><li>Tackle challenging social features at scale: improve our content feed, implement live chat during esports events, or contribute to our anti-toxicity moderation technology</li><li>Dive into the unknown alongside a similarly driven team of creators. Communication, collaboration, respect, and adaptability are key tenets of this squad.</li></ul><strong>What you’ll bring to our team</strong><ul><li>A fresh perspective on how to solve the challenges of building the Juked products</li><li>Ability to work effectively in a team setting, including creatively turning abstract ideas into concrete design solutions</li><li>3+ years experience as a software developer building scalable mobile and/or web apps</li><li>2+ years experience writing Javascript (ES6+) and using React, preferably with Typescript</li><li>Passion for esports, gaming, or online communities</li></ul><strong>Bonus Points</strong><ul><li>Experience with mobile programming languages (Swift, Java, Kotlin, Objective-C) and/or React Native</li><li>Have built a gaming or esports related side project</li><li>Excited to tackle the unknown</li><li>Desire to grow with the product and challenge yourself regularly</li></ul><strong>What We Offer At Juked</strong><lu><li>A chance to work on solutions that improve the daily life of esports fans—from building novel ways to connect and chat, making it easier to stay connected to the biggest moments from their favorite games and teams, to creating a safe, open, and inclusive environment for discussion.</li><li>A passionate, exceptional, and closed-knit team that loves video games</li><li>A place where your ideas and your voice will be heard, and your hard work will be instrumental to the success of the company</li><li>An opportunity to build innovative products that will have a lasting impact on the lives of esports fans</li><li>A fast-paced and fun working environment</li><li>Benefits including Medical insurance (Health, Dental, Vision) and 401K</li><li>Substantial equity ownership in a fast growing startup</li></lu><strong>About Juked</strong><p>We’re passionate esports fans to the very core of our DNA: founders Ben & Chris have 25+ combined years of experience in leading entrepreneurial roles in the industry (including the founding team at Twitch), and are both former competitive players, commentators, content creators, and tournament organizers.</p><p>We launched Juked in November 2019 as the best way to Discover, Watch, and Follow the esports you care about, and our web product now reaches more 50,000 unique users per month. We are taking the next step to make Juked part of the daily habit of 500+ million esports fans around the world with our upcoming mobile application and our renewed focus on building the social and community hub for esports.</p><p>Esports is growing like crazy, but we at Juked know that esports is still in its infancy and has decades of exponential growth ahead. We're aiming to play a massive role in that evolution.</p>"
+    "description": "<h3>Software Engineer, Frontend</h3><p>Our mission at Juked is to bring esports fans closer together. We’re building a new social network where esports fans from every game and genre will convene in one place, for the first time, to forge new relationships, drive deeper connections, and experience the electric moments that make up the esports we love—together.</p><p>We are well on our way to making this mission a reality, and are seeking a Frontend Engineer with React/React Native experience to help us build the new home for esports fans. You will work with state of the art technologies to develop a social media platform that services millions of people. As a member of our engineering team, you will play a significant role in building and shaping our product. Your work will be critical to our success.</p><p>If you are excited about creating an open, inclusive, and positive future for the esports community and want to be part of a talented and passionate founding team, come join us at Juked!</p><strong>As a Frontend Engineer, you will:</strong><ul><li>Work with the engineering team to develop high quality mobile and web products with the rest of the engineering team</li><li>Take ownership of your code and become the expert in your segment of the product</li><li>Collaborate with designers and the product team to develop delightful interfaces and experiences</li><li>Tackle challenging social features at scale: improve our content feed, implement live chat during esports events, or contribute to our anti-toxicity moderation technology</li><li>Dive into the unknown alongside a similarly driven team of creators. Communication, collaboration, respect, and adaptability are key tenets of this squad.</li></ul><strong>What you’ll bring to our team</strong><ul><li>A fresh perspective on how to solve the challenges of building the Juked products</li><li>Ability to work effectively in a team setting, including creatively turning abstract ideas into concrete design solutions</li><li>3+ years experience as a software developer building scalable mobile and/or web apps</li><li>2+ years experience writing Javascript (ES6+) and using React, preferably with Typescript</li><li>Passion for esports, gaming, or online communities</li></ul><strong>Bonus Points</strong><ul><li>Experience with mobile programming languages (Swift, Java, Kotlin, Objective-C) and/or React Native</li><li>Have built a gaming or esports related side project</li><li>Excited to tackle the unknown</li><li>Desire to grow with the product and challenge yourself regularly</li></ul><strong>What We Offer At Juked</strong><ul><li>A chance to work on solutions that improve the daily life of esports fans—from building novel ways to connect and chat, making it easier to stay connected to the biggest moments from their favorite games and teams, to creating a safe, open, and inclusive environment for discussion.</li><li>A passionate, exceptional, and closed-knit team that loves video games</li><li>A place where your ideas and your voice will be heard, and your hard work will be instrumental to the success of the company</li><li>An opportunity to build innovative products that will have a lasting impact on the lives of esports fans</li><li>A fast-paced and fun working environment</li><li>Benefits including Medical insurance (Health, Dental, Vision) and 401K</li><li>Substantial equity ownership in a fast growing startup</li></ul><strong>About Juked</strong><p>We’re passionate esports fans to the very core of our DNA: founders Ben & Chris have 25+ combined years of experience in leading entrepreneurial roles in the industry (including the founding team at Twitch), and are both former competitive players, commentators, content creators, and tournament organizers.</p><p>We launched Juked in November 2019 as the best way to Discover, Watch, and Follow the esports you care about, and our web product now reaches more 50,000 unique users per month. We are taking the next step to make Juked part of the daily habit of 500+ million esports fans around the world with our upcoming mobile application and our renewed focus on building the social and community hub for esports.</p><p>Esports is growing like crazy, but we at Juked know that esports is still in its infancy and has decades of exponential growth ahead. We're aiming to play a massive role in that evolution.</p>"
   },
   {
     "id": 9,
@@ -189,7 +189,7 @@
     "type": "Part Time",
     "team_size": "1-10",
     "level": "Senior Level",
-    "salary": "$100,000 – $150,000",
+    "salary": "$100,000 - $150,000",
     "skills": [
       {
         "name": "HTML"
@@ -211,7 +211,7 @@
     "type": "Contract",
     "team_size": "1-10",
     "level": "Senior Level",
-    "salary": "$100,000 – $150,000",
+    "salary": "$100,000 - $150,000",
     "skills": [
       {
         "name": "Ruby on Rails"

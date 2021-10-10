@@ -23,6 +23,7 @@ const Select2 = (props: any) => {
     placeholder,
     clear = true,
     value,
+    defaultValue,
     onChange = () => {},
     onInputChange = () => {},
     dataTestId,
@@ -66,6 +67,7 @@ const Select2 = (props: any) => {
         placeholder={placeholder}
         isClearable={clear}
         value={value}
+        defaultValue={defaultValue}
         onChange={onChange}
         onInputChange={onInputChange}
         defaultMenuIsOpen={false}

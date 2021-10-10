@@ -89,14 +89,12 @@ export const searchJobs = (data: any): AppThunk => async dispatch => {
     if (data.job_title) jobs = jobs.filter(job => data.job_title === job.job_title.toLowerCase());
     if (data.company_name) jobs = jobs.filter(job => data.company_name === job.company_name.toLowerCase());
     if (data.location) jobs = jobs.filter(job => data.location === job.location.toLowerCase());
-    if (data.skills?.length) jobs = jobs.filter(job => job.skills.filter(skill => data.skills.includes(skill.name.toLowerCase())));
+    if (data.skills?.length) jobs = jobs.filter(job => job.skills.find(skill => data.skills.includes(skill.name.toLowerCase())));
     if (data.markets?.length) jobs = jobs.filter(job => data.markets.includes(job.company_market.toLowerCase()));
     if (data.levels?.length) jobs = jobs.filter(job => data.levels.includes(job.level.toLowerCase()));
-    if (data.teamSizes?.length) jobs = jobs.filter(job => data.teamSizes.includes(job.team_size.toLowerCase()));
+    if (data.team_sizes?.length) jobs = jobs.filter(job => data.team_sizes.includes(job.team_size.toLowerCase()));
     if (data.types?.length) jobs = jobs.filter(job => data.types.includes(job.type.toLowerCase()));
     if (data.salaries?.length) jobs = jobs.filter(job => data.salaries.includes(job.salary.toLowerCase()));
-    console.log(data, 'data')
-    console.log(jobs, 'jobs')
     
     dispatch(getJobsSuccess({ jobs }));
   } catch (err) {

@@ -1,9 +1,11 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 import jobsReducer from '../components/jobs/indexSlice';
+import searchReducer from '../components/search/indexSlice';
 
 export const store = configureStore({
   reducer: {
     jobs: jobsReducer,
+    search: searchReducer
   },
 });
 

@@ -5,6 +5,16 @@ import { device } from '../../utils/breakpoints';
 
 const { info, primary, light } = colors;
 
+export const SearchNumber = styled.h4`
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+
+  span {
+    color: ${primary};
+  }
+`;
+
 export const Wrapper = styled.div`
   max-width: 900px;
   margin: 0 auto;

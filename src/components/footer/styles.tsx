@@ -1,5 +1,6 @@
 import { lighten, rem } from 'polished';
 import styled from 'styled-components/macro';
+import { device } from '../../utils/breakpoints';
 import { colors } from '../../utils/variables';
 
 const { normal, info } = colors;
@@ -25,16 +26,35 @@ export const FooterTop = styled.div`
       padding: 0.5rem;
 
       &:nth-child(1) {
-        width: 30%;
+        width: 100%;
+        
+        @media ${device.m} {
+          width: 30%;
+        }
       }
+
       &:nth-child(2) {
-        width: 20%;
+        width: 100%;
+
+        @media ${device.m} {
+          width: 20%;
+        }
       }
+
       &:nth-child(3) {
-        width: 20%;
+        width: 100%;
+
+        @media ${device.m} {
+          width: 20%;
+        }
       }
+
       &:nth-child(4) {
-        width: 30%;
+        width: 100%;
+
+        @media ${device.m} {
+          width: 30%;
+        }
       }
     }
   }

@@ -2,7 +2,7 @@
 
 **Taikailance** is a website for startups and job seekers looking to work in startups. These sites help employees find talent in their team. Also allows job seekers to work in their dream startup.
 
-Deployment link [http://taikailance.herokuapp.com](http://taikailance.herokuapp.com)
+Deployment link [https://657700b15d235373d4e34edd--spiffy-naiad-4da35f.netlify.app](https://657700b15d235373d4e34edd--spiffy-naiad-4da35f.netlify.app)
 
 ## Screenshot
 
